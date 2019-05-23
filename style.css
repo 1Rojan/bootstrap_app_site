@@ -1,0 +1,27 @@
+.top{
+    background: url(images/bg-pattern.png),-webkit-gradient(linear,right top,left top,from(#7b4397),to(#dc2430));
+}
+a,.fourth a{
+    border-radius: 30px 30px 30px 30px;
+}
+
+.second, .fifth{
+    background:#fdc743;
+}
+
+.fa-mobile-alt{
+    font-size: 70px;
+    color: #ad335c;
+  
+}
+
+.fourth{
+    background: url(images/bg-cta.jpg);
+    filter: brightness(50%);
+    height: 800px;
+    background-position: -500px -300px;
+}
+
+.fa-heart{
+    color:red;
+}
