@@ -1,7 +1,6 @@
 body{
     font-family: 'Palanquin', sans-serif !important;
     margin: 0;
-
 }
 
 .top{
@@ -62,5 +61,10 @@ border-radius: 5px 5px 5px 5px;
 
 .google{
     background-position: 62px 0px;
+}
+
+li:hover{
+    color: white;
+    cursor: pointer;
 }
 
