@@ -6,8 +6,11 @@ body{
 .top{
     background: url(images/bg-pattern.png),-webkit-gradient(linear,right top,left top,from(#7b4397),to(#dc2430));
 }
-a{
+a {
     text-decoration: none !important;
+}
+.bt-font{
+    font-size: 12px;
 }
 
 hr{
@@ -27,21 +30,25 @@ border-radius: 5px 5px 5px 5px;
     color: #ad335c;
   
 }
+.fourth{
+    /* height: 500px; */
+}
 .blur_image_txt{
     top: 35%;
     left: 20%;
-    /* transform: scale(1.5); */
+    /* transform: scale(1); */
 }
 
 .blur_image_txt h1{
     
-    transform: scale(1.05);
+    transform: scale(1.3);
 }
 
 
 .blur_image{
     filter: brightness(50%);
     background: url(images/bg-cta.jpg);
+    
 }
 
 
