@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Bootstrap site</title>
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
+    
     <link href="https://fonts.googleapis.com/css?family=Palanquin&display=swap" rel="stylesheet">
 </head>
 
@@ -24,9 +26,9 @@
     <main>
         <section class="top text-light container-fluid">
 
+            
             <div class="d-none d-lg-block d-md-block">
                 <nav class="row d-lg d-flex py-3 mb-3">
-
                     <h5 class="col-sm-5 d-lg-flex justify-content-center text-warning ">Start Bootstrap</h5>
 
                     <ul class="list-inline col-sm-7 d-flex justify-content-center pl-5">
@@ -36,10 +38,11 @@
                     </ul>
                 </nav>
             </div>
+        
 
             <div class="row d-flex justify-content-end ">
 
-                <section class="col-sm-5  py-5 px-5 d-none d-md-block d-lg-block">
+                <section class="col-sm-5  py-5 px-5 d-none d-md-none d-lg-block">
                     <h1 class="d-flex pt-5 pr-3">New Age is an app landing page that will help you beautifully showcase
                         your new mobile app,or anything else!</h1>
                     <br>
@@ -47,11 +50,10 @@
                             </b></small> </a>
                 </section>
 
-
                 <!-- for mobile -->
                 <section class="col-sm-5 py-5 pt-1 px-4 text-center d-sm-block d-lg-none d-md-none">
-                    <h3 class="d-flex py-5 ">New Age is an app landing page that will help you beautifully showcase
-                        your new mobile app,or anything else!</h3>
+                    <h5 class="d-flex pt-5 ">New Age is an app landing page that will help you beautifully showcase
+                        your new mobile app,or anything else!</h5>
                     <br>
                     <a href="" class=" border rounded-pill text-light p-1 px-4"><small> <b>START NOW FOR FREE!
                             </b></small> </a>
@@ -62,30 +64,33 @@
                 <section class="col-sm-5 mb-5 d-flex d-none d-md-block d-lg-block justify-content-center">
                     <img src="images/overlay.png" alt="Responsive image" class="w-50 img-fluid">
                 </section>
+
             </div>
         </section>
 
 
-        <section class="second py-4 px-0">
-            <div class=" heading row d-flex justify-content-center">
+        <section class="second py-4 px-0 ">   
+
+            <div class="row heading d-flex justify-content-center px-0 mx-0">
                 <h1 class="col-sm-4 text-center pt-5 ">Discover what all the buzz is about!</h1>
             </div>
 
-            <div class="line row d-flex justify-content-center pb-3 mx-0">
+
+            <div class="subhead line row d-flex justify-content-center pb-3 mx-0">
                 <p class="col-sm-5 px-0 text-center">Our app is available in any mobile device!Download now to get
                     started!
 
                 </p>
             </div>
 
-            <div class="row d-flex justify-content-center mb-5 mx-0 h-auto">
+            <div class="row d-flex justify-content-center flex-wrap mb-5 mx-0 h-auto">
                 <button class="text-light border-dark"><img src="images/btn.png" alt=""> </button>&nbsp;
                 <button class=" text-light border-dark"> <img src="images/btn2.png" alt=""> </button>
             </div>
         </section>
 
 
-        <section class="third py-4 m-0">
+        <section class="third py-4 m-auto">
 
             <div class="heading">
                 <h1 class="text-center">Unlimited Features, Unlimited Fun</h1>
@@ -93,19 +98,18 @@
                     Check out what you can do with this app theme!
                 </p>
                 <hr>
-
             </div>
 
-            <article class="row d-flex container">
+            <article class="row d-flex container-fluid m-0">
 
-                <div class="left col-sm-6 d-flex justify-content-center h-auto">
-                    <img src="images/overlay.png" alt="" class="w-50 my-5">
+                <div class="left col-sm-5 d-flex justify-content-center h-auto">
+                    <img src="images/overlay.png" alt="" class="w-50 mt-5">
                 </div>
 
 
-                <div class="right col-sm-6 px-0">
-                    <div class="right_sub row  py-5 mt-5 pl-0">
-                        <div class="col-sm-6 pr-0 text-center ">
+                <div class="right col-sm-6 px-0 d-flex flex-column">
+                    <div class=" row  right_sub  py-5 mt-5 pl-0 d-flex flex-wrap">
+                        <div class="col-sm-6 pr-0 text-center pb-5">
                             <i class="common fas fa-mobile-alt  text-danger"></i>
                             <h2 class="py-2">Device Mockups</h2>
                             <h6 class="text-secondary">Ready to use HTML/CSS device mockups,
@@ -122,8 +126,8 @@
                         </div>
                     </div>
 
-                    <div class="right_sub row px-0">
-                        <div class="col-sm-6 text-center px-0">
+                    <div class="right_sub row px-0 d-flex flex-wrap">
+                        <div class="col-sm-6 text-center px-0 pb-5">
                             <i class="common fas fa-gift"></i>
                             <h2 class="py-2">Free to use</h2>
                             <h6 class="text-secondary ml-3">As always this theme is free to
@@ -146,22 +150,29 @@
         <section class="row fourth pt-4 text-light m-0">
             <div class="imag col-sm-12 p-0  position-relative">
                 <img class="blur_image img-fluid" src="images/bg-cta.jpg" alt="Img">
-                <div class="blur_image_txt text-white position-absolute ">
-                    <h1 class="pb-4 pl-3 h-auto">Stop Waiting. <br> Start Building.</h1>
-                    <a href="" class="bt-font border border-2 rounded-pill text-light px-5 py-2"><small>LET'S GET
+                <div class="blur_image_txt text-white position-absolute  d-none d-lg-block d-md-block">
+                    <h1 class="pb-4 pl-3 ">Stop Waiting. <br> Start Building.</h1><br>
+                    <a href="" class="bt-font border border-2 rounded-pill text-light px-5 py-2 mt-3"><small>LET'S GET
                             STARTED!</small></a>
                 </div>
+
+                <div class="blur_image_txt text-white position-absolute  d-block d-lg-none d-md-none">
+                    <h3 class="pb-4">Stop Waiting. <br> Start Building.</h3>
+                    <a href="" class="bt-font border border-2 rounded-pill text-light px-3 py-1"><small>LET'S GET
+                            STARTED!</small></a>
+                </div>
+               
             </div>
         </section>
 
 
-        <section class=" row fifth py-5 m-0">
+        <section class="row fifth py-5 m-0">
 
-            <div class="col-sm-12 d-sm-none">
+            <div class="col-sm-12 d-sm-none px-0">
 
-                <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 ">
                     <a class="navbar-brand text-danger" href="#">Start Bootstrap</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    <button class="btn btn-sm border" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation"><small>Menu</small>
                         <span class="navbar-toggler-icon"></span>
@@ -169,10 +180,10 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                        <ul class="text-right bg-dark text-warning">
-                            <li class="list-group ml- "> <small> DOWNLOAD </small></li>
-                            <li class="list-group ml- "> <small>FEATURES </small></li>
-                            <li class="list-group ml-"><small>CONTACT </small></li>
+                        <ul class="text-right  text-dark ">
+                            <li class="list-group menu"> DOWNLOAD </li>
+                            <li class="list-group menu ">FEATURES </li>
+                            <li class="list-group menu">CONTACT </li>
                         </ul>
                     </div>
                 </nav>
